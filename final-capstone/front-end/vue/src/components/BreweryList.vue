@@ -6,7 +6,7 @@
      <br>
      <br>
      <br>
-     <img id="hopimg" src="../assets/hops.png" style="width: 40px"><br>
+     <img id="hopimg" src="@/assets/hops.png" style="width: 40px"><br>
      <div id="breweryfinderlogo">BreweryFinder</div>
      <br>
      <br>
