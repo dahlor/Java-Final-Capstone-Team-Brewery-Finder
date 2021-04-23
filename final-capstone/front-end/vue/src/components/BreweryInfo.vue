@@ -830,7 +830,7 @@
       v-model="avgStarRating"
       background-color="green lighten-3"
       color="green"
-      read-only
+      readonly
       medium
     ></v-rating>
     <p>from {{numberOfReviews}} <span v-if="numberOfReviews !== '1'">ratings</span><span v-if="numberOfReviews == '1'">rating</span></p>
