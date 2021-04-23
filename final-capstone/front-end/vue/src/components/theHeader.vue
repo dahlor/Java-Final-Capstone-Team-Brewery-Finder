@@ -1,7 +1,7 @@
 <template>
     <div id="theentireheader">
         <div>
-          <router-link to="/breweryfinder"> 
+          <router-link :to="{ name: 'home'}"> 
             <div v-show="$route.name !=='home'">
             <img id="hopimg" src="@/assets/hops.png" width="20px">
             <div id="breweryfindertitle">BreweryFinder </div>
