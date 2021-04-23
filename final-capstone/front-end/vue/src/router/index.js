@@ -29,7 +29,7 @@ const router = new Router({
   base: process.env.BASE_URL,   // Get the base server URL from the .env file
   routes: [
     {
-      path: '/',
+      path: '/breweryfinder',
       name: 'home',
       component: Home,
       meta: {
@@ -37,15 +37,7 @@ const router = new Router({
       }
     },
     {
-      path: '/',
-      name: 'home',
-      component: Home,
-      meta: {
-        requiresAuth: false
-      }
-    },
-    {
-      path: "/login",
+      path: "/breweryfinder/login",
       name: "login",
       component: Login,
       meta: {
@@ -53,7 +45,7 @@ const router = new Router({
       }
     },
     {
-      path: "/logout",
+      path: "/breweryfinder/logout",
       name: "logout",
       component: Logout,
       meta: {
@@ -61,7 +53,7 @@ const router = new Router({
       }
     },
     {
-      path: "/register",
+      path: "/breweryfinder/register",
       name: "register",
       component: Register,
       meta: {
@@ -69,7 +61,7 @@ const router = new Router({
       }
     },
     {
-      path: "/addBeer",
+      path: "/breweryfinder/addBeer",
       name: "addBeer",
       component: NewBeer,
       meta: {
@@ -77,7 +69,7 @@ const router = new Router({
     }
     },
     {
-    path: "/addBrewery",
+    path: "/breweryfinder/addBrewery",
     name: "addBrewery",
     component: AddBrewery,
     meta: {
@@ -85,7 +77,7 @@ const router = new Router({
     }
     },
     {
-    path: "/breweries/:id",
+    path: "/breweryfinder/breweries/:id",
     name: "breweryinfo",
     component: DisplayBreweryInfo,
     meta: {
@@ -93,7 +85,7 @@ const router = new Router({
     }
     },
     {
-      path: '/product/add-review', 
+      path: '/breweryfinder/product/add-review', 
       name: 'add-review',              
       component: AddReview,
       meta: {
@@ -101,7 +93,7 @@ const router = new Router({
       }   
     },
     {
-    path: "/reviews",
+    path: "/breweryfinder/reviews",
     name: "reviewlist",
     component: ReviewList,
 
@@ -116,7 +108,7 @@ router.beforeEach((to, from, next) => {
 
   // If it does and they are not logged in, send the user to "/login"
   if (requiresAuth && store.state.token === '') {
-    next("/login");
+    next("/breweryfinder/login");
   } else {
     // Else let them go to their next destination
     next();
