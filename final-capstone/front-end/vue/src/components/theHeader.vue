@@ -3,7 +3,7 @@
         <div>
           <router-link to="/breweryfinder"> 
             <div v-show="$route.name !=='home'">
-            <img id="hopimg" src="/assets/hops.png" width="20px">
+            <img id="hopimg" src="@/assets/hops.png" width="20px">
             <div id="breweryfindertitle">BreweryFinder </div>
            </div>
           </router-link>
