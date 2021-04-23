@@ -1,9 +1,9 @@
 <template>
     <div id="theentireheader">
         <div>
-          <router-link to="http://atlantiscoding.com/breweryfinder"> 
+          <router-link to="/"> 
             <div v-show="$route.name !=='home'">
-            <img id="hopimg" src="@/assets/hops.png" width="20px">
+            <img id="hopimg" src="http://atlantiscoding.com/breweryfinder/img/hops.png" width="20px">
             <div id="breweryfindertitle">BreweryFinder </div>
            </div>
           </router-link>
@@ -368,7 +368,7 @@ export default {
 
     logout(){
       this.$store.commit("LOGOUT");
-      this.$router.push("http://atlantiscoding.com/breweryfinder");
+      this.$router.push("/");
       location.reload();
     },
     login() {
@@ -378,7 +378,7 @@ export default {
           if (response.status == 200) {
             this.$store.commit("SET_AUTH_TOKEN", response.data.token);
             this.$store.commit("SET_USER", response.data.user);
-            this.$router.push("http://atlantiscoding.com/breweryfinder");
+            this.$router.push("/");
           }
         })
         .catch(error => {
@@ -398,7 +398,7 @@ export default {
           .register(this.user)
           .then((response) => {
             if (response.status == 201) {
-              this.$router.push("http://atlantiscoding.com/breweryfinder");
+              this.$router.push("/");
               location.reload();
               this.registered == !this.registered;
 

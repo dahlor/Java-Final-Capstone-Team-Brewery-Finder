@@ -6,7 +6,7 @@
      <br>
      <br>
      <br>
-     <img id="hopimg" src="@/assets/hops.png" style="width: 40px"><br>
+     <img id="hopimg" src="http://atlantiscoding.com/breweryfinder/img/hops.png" style="width: 40px"><br>
      <div id="breweryfinderlogo">BreweryFinder</div>
      <br>
      <br>
@@ -77,7 +77,7 @@
               width="85"
               dark
               >
-              <img id="buttonicon" src="../assets/hops.png"><br> 
+              <img id="buttonicon" src="http://atlantiscoding.com/breweryfinder/img/hops.png"><br> 
               <div id="profilebuttontext">PROFILE</div>
             </v-btn>
             </router-link>
