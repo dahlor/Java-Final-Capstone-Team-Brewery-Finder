@@ -29,5 +29,4 @@ update breweries set street = 'Unavailable' where street is null;
 update breweries set city = 'Unavailable' where city is null;
 update breweries set state = 'Unavailable' where state is null;
 update breweries set postal_code = 'Unavailable' where postal_code is null;
-update breweries set website_url = 'Website Not Submitted' where website_url is null;
 update breweries set phone = '0005551234' where phone is null;
