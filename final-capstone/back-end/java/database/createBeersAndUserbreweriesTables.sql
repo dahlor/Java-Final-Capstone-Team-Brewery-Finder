@@ -69,7 +69,7 @@ constraint fk_beer_id foreign key (beer_id) references beers(beer_id)
 insert into userbreweries (obdb_id, name, street, city, state, postal_code, website_url, phone, username) values ('jeffs-tavern-and-brewhouse', 'Jeff''s Tavern & Brewhouse', '1 Cedar Point Drive', 'Sandusky', 'Ohio', '44870', null, '4405551234', 'tester');
 insert into userbreweries (obdb_id, name, street, city, state, postal_code, website_url, phone, username) values ('pub-louis', 'Pub Louis', '1250 Pacific Ave #101', 'Tacoma', 'Washington', '98402', null, '4405551234', 'tester');
 insert into userbreweries (obdb_id, name, street, city, state, postal_code, website_url, phone, username) values ('briannas-wing-and-dancehall', 'Brianna''s Wings & Dancehall', '300 Parkside Ave', 'Buffalo', 'New York', '14214', null, '4405551234', 'tester');
-insert into userbreweries (obdb_id, name, street, city, state, postal_code, website_url, phone, username) values ('rikers-honey-hut', 'Riker''s Honey Hut', '4674 State Road', 'Cleveland', 'Ohio', '44109', null, '2167497077', 'tester');
+insert into userbreweries (obdb_id, name, street, city, state, postal_code, website_url, phone, username) values ('rikers-honey-hut', 'Riker''s Honey Hut', '4674 State Road', 'Cleveland', 'Ohio', '44109', null, '2167497077', 'riker');
 
 
 insert into beers (obdb_id, beer_name, brewery, description, image, abv, beer_type, active) values ('jeffs-tavern-and-brewhouse', 'Nitro Coconut Truffle', 'Southern Tier Brewing Company', 'Ale with sea salt, dark chocolate, and natural chocolate & coconut flavors.', 'https://i.imgur.com/ygrWulF.png', '10%', 'Imperial Milk Stout', 'Y');
