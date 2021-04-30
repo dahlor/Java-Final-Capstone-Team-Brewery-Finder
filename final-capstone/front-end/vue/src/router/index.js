@@ -29,7 +29,7 @@ const router = new Router({
   base: process.env.BASE_URL,   // Get the base server URL from the .env file
   routes: [
     {
-      path: '/breweryfinder',
+      path: '/',
       name: 'home',
       component: Home,
       meta: {
@@ -37,68 +37,13 @@ const router = new Router({
       }
     },
     {
-      path: "/breweryfinder/login",
-      name: "login",
-      component: Login,
-      meta: {
-        requiresAuth: false
-      }
-    },
-    {
-      path: "/breweryfinder/logout",
-      name: "logout",
-      component: Logout,
-      meta: {
-        requiresAuth: false
-      }
-    },
-    {
-      path: "/breweryfinder/register",
-      name: "register",
-      component: Register,
-      meta: {
-        requiresAuth: false
-      }
-    },
-    {
-      path: "/breweryfinder/addBeer",
-      name: "addBeer",
-      component: NewBeer,
-      meta: {
-        requiresAuth: false
-    }
-    },
-    {
-    path: "/breweryfinder/addBrewery",
-    name: "addBrewery",
-    component: AddBrewery,
-    meta: {
-      requiresAuth: false
-    }
-    },
-    {
-    path: "/breweryfinder/breweries/:id",
+    path: "/breweries/:id",
     name: "breweryinfo",
     component: DisplayBreweryInfo,
     meta: {
       requiresAuth: false
     }
-    },
-    {
-      path: '/breweryfinder/product/add-review', 
-      name: 'add-review',              
-      component: AddReview,
-      meta: {
-        requiresAuth: false
-      }   
-    },
-    {
-    path: "/breweryfinder/reviews",
-    name: "reviewlist",
-    component: ReviewList,
-
     }
-
   ]
 })
 
@@ -108,7 +53,7 @@ router.beforeEach((to, from, next) => {
 
   // If it does and they are not logged in, send the user to "/login"
   if (requiresAuth && store.state.token === '') {
-    next("/breweryfinder/login");
+    next("/login");
   } else {
     // Else let them go to their next destination
     next();
