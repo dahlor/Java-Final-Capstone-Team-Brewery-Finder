@@ -1,17 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../views/Home.vue'
-import Login from '../views/Login.vue'
-import Logout from '../views/Logout.vue'
-import Register from '../views/Register.vue'
 import store from '../store/index'
-import AddBrewery from '../views/AddBrewery.vue'
-import NewBeer from '../views/AddBeer.vue'
-/*import beerList from '../views/DisplayBeer.vue' */
-/*import SingleBeerInformation from '../views/SingleBeerInformation.vue' */
 import DisplayBreweryInfo from '../views/DisplayBreweryInfo.vue'
-import AddReview from '../views/AddReview.vue'
-import ReviewList from '../views/ReviewList.vue'
 
 Vue.use(Router)
 
