@@ -1,7 +1,7 @@
 <template>
     <div id="theentireheader">
         <div>
-          <a href="/"> 
+          <a href="/breweryfinder"> 
             <div v-show="$route.name !=='home'">
             <img id="hopimg" src="@/assets/hops.png" width="20px">
             <div id="breweryfindertitle">BreweryFinder </div>
