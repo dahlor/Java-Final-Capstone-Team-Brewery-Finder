@@ -1,12 +1,12 @@
 <template>
     <div id="theentireheader">
         <div>
-          <router-link :to="{ name: 'home'}"> 
+          <a href="/"> 
             <div v-show="$route.name !=='home'">
             <img id="hopimg" src="@/assets/hops.png" width="20px">
             <div id="breweryfindertitle">BreweryFinder </div>
            </div>
-          </router-link>
+          </a>
 
         <div id="whoareyou" v-if="tokenCheck && $route.name =='home' && userCheck == 'ROLE_USER'">
             Welcome back, Beer Lover {{this.$store.state.user.username}}.
@@ -512,6 +512,7 @@ export default {
     position: absolute;
     margin: auto;
     color: white;
+    text-decoration: none;
 }
 
 .alert-danger {

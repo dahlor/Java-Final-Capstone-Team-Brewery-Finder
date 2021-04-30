@@ -1265,6 +1265,7 @@ import BeerService from '@/services/BeerService';
     },
 
     created() {
+        location.reload();
         BreweryServices.getSingleBreweryInfo(this.$route.params.id).then(response => {
         this.results = response.data;
         })
