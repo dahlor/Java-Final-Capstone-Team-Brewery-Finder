@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const http = axios.create({
-  baseURL: "http://atlantiscoding.com:8080"
+  baseURL: "https://atlantiscoding.com:8443"
 });
 
 export default {
