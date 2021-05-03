@@ -1,0 +1,337 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---< [0;36mcom.techelevator:final-capstone-back-end-server-brewery-finder[0;1m >---[m
+[[1;34mINFO[m] [1mBuilding final-capstone-back-end-server-brewery-finder 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 32 source files to /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/target/classes
+[[1;34mINFO[m] /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/src/main/java/com/techelevator/application/dao/ReviewsSQLDAO.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/src/main/java/com/techelevator/application/dao/ReviewsSQLDAO.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:run[m [1m(default-cli)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+  ____                                            
+ |  _ \                                           
+ | |_) |_ __ _____      _____ _ __ _   _          
+ |  _ <| '__/ _ \ \ /\ / / _ | '__| | | |         
+ | |_) | | |  __/\ V  V |  __| |  | |_| |         
+ |____/|_|  \___| \_/\_/ \___|_|   \__, |         
+  ______ _           _              __/ |         
+ |  ____(_)         | |            |___/          
+ | |__   _ _ __   __| | ___ _ __                  
+ |  __| | | '_ \ / _` |/ _ | '__|                 
+ | |    | | | | | (_| |  __| |                    
+ |_|    |_|_| |_|\__,_|\___|_|                    
+   _____      _                _   ___ __   _____ 
+  / ____|    | |              | | |  _/_ | / |_  |
+ | |     ___ | |__   ___  _ __| |_| |  | |/ /_ | |
+ | |    / _ \| '_ \ / _ \| '__| __| |  | | '_ \| |
+ | |___| (_) | | | | (_) | |  | |_| |  | | (_) | |
+  \_____\___/|_| |_|\___/|_|   \__| |_ |_|\____| |
+                                  |___|      |___|
+                                                           
+2021-05-03 16:20:51.282  INFO 1272 --- [  restartedMain] com.techelevator.ApplicationServer       : Starting ApplicationServer on atlantiscoding with PID 1272 (/home/dahlor/coding/breweryfinder/final-capstone/back-end/java/target/classes started by dahlor in /home/dahlor/coding/breweryfinder/final-capstone/back-end/java)
+2021-05-03 16:20:51.286  INFO 1272 --- [  restartedMain] com.techelevator.ApplicationServer       : No active profile set, falling back to default profiles: default
+2021-05-03 16:20:51.347  INFO 1272 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-03 16:20:51.348  INFO 1272 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-03 16:20:52.176  INFO 1272 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-05-03 16:20:52.199  INFO 1272 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 JDBC repository interfaces.
+2021-05-03 16:20:52.526  INFO 1272 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@567843bc' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-03 16:20:52.531  INFO 1272 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-03 16:20:52.814  INFO 1272 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https)
+2021-05-03 16:20:52.825  INFO 1272 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-03 16:20:52.826  INFO 1272 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-05-03 16:20:52.909  INFO 1272 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-03 16:20:52.909  INFO 1272 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1561 ms
+2021-05-03 16:20:53.223  INFO 1272 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**', OPTIONS], []
+2021-05-03 16:20:53.249  INFO 1272 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7172437a, org.springframework.security.web.context.SecurityContextPersistenceFilter@376e9862, org.springframework.security.web.header.HeaderWriterFilter@328dc059, org.springframework.security.web.authentication.logout.LogoutFilter@1f87ab0e, com.techelevator.security.jwt.JWTFilter@54944e64, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38973aa4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5986d886, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76e95023, org.springframework.security.web.session.SessionManagementFilter@3f6de1dd, org.springframework.security.web.access.ExceptionTranslationFilter@7918a539]
+2021-05-03 16:20:53.393  INFO 1272 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 16:20:53.598  INFO 1272 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Starting...
+2021-05-03 16:20:53.916  INFO 1272 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Start completed.
+2021-05-03 16:20:53.982  INFO 1272 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-03 16:20:54.777  INFO 1272 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) with context path ''
+2021-05-03 16:20:54.789  INFO 1272 --- [  restartedMain] com.techelevator.ApplicationServer       : Started ApplicationServer in 4.035 seconds (JVM running for 4.531)
+2021-05-03 16:23:09.574  INFO 1272 --- [nio-8443-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-03 16:23:09.574  INFO 1272 --- [nio-8443-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-03 16:23:09.583  INFO 1272 --- [nio-8443-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-05-03 16:51:48.234  INFO 1272 --- [nio-8443-exec-9] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol [HTTP/1.10x0aHost:]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:560) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-05-03 16:53:21.308  INFO 1272 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 16:53:21.317  INFO 1272 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Shutdown initiated...
+2021-05-03 16:53:21.391  INFO 1272 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Shutdown completed.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---< [0;36mcom.techelevator:final-capstone-back-end-server-brewery-finder[0;1m >---[m
+[[1;34mINFO[m] [1mBuilding final-capstone-back-end-server-brewery-finder 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 32 source files to /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/target/classes
+[[1;34mINFO[m] /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/src/main/java/com/techelevator/application/dao/ReviewsSQLDAO.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/src/main/java/com/techelevator/application/dao/ReviewsSQLDAO.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:run[m [1m(default-cli)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+  ____                                            
+ |  _ \                                           
+ | |_) |_ __ _____      _____ _ __ _   _          
+ |  _ <| '__/ _ \ \ /\ / / _ | '__| | | |         
+ | |_) | | |  __/\ V  V |  __| |  | |_| |         
+ |____/|_|  \___| \_/\_/ \___|_|   \__, |         
+  ______ _           _              __/ |         
+ |  ____(_)         | |            |___/          
+ | |__   _ _ __   __| | ___ _ __                  
+ |  __| | | '_ \ / _` |/ _ | '__|                 
+ | |    | | | | | (_| |  __| |                    
+ |_|    |_|_| |_|\__,_|\___|_|                    
+   _____      _                _   ___ __   _____ 
+  / ____|    | |              | | |  _/_ | / |_  |
+ | |     ___ | |__   ___  _ __| |_| |  | |/ /_ | |
+ | |    / _ \| '_ \ / _ \| '__| __| |  | | '_ \| |
+ | |___| (_) | | | | (_) | |  | |_| |  | | (_) | |
+  \_____\___/|_| |_|\___/|_|   \__| |_ |_|\____| |
+                                  |___|      |___|
+                                                           
+2021-05-03 16:54:56.364  INFO 1250 --- [  restartedMain] com.techelevator.ApplicationServer       : Starting ApplicationServer on atlantiscoding with PID 1250 (/home/dahlor/coding/breweryfinder/final-capstone/back-end/java/target/classes started by dahlor in /home/dahlor/coding/breweryfinder/final-capstone/back-end/java)
+2021-05-03 16:54:56.366  INFO 1250 --- [  restartedMain] com.techelevator.ApplicationServer       : No active profile set, falling back to default profiles: default
+2021-05-03 16:54:56.419  INFO 1250 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-03 16:54:56.420  INFO 1250 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-03 16:54:57.191  INFO 1250 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-05-03 16:54:57.211  INFO 1250 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 JDBC repository interfaces.
+2021-05-03 16:54:57.576  INFO 1250 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@68d9e1a7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-03 16:54:57.591  INFO 1250 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-03 16:54:57.896  INFO 1250 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https)
+2021-05-03 16:54:57.910  INFO 1250 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-03 16:54:57.910  INFO 1250 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-05-03 16:54:57.992  INFO 1250 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-03 16:54:57.992  INFO 1250 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1572 ms
+2021-05-03 16:54:58.268  INFO 1250 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**', OPTIONS], []
+2021-05-03 16:54:58.327  INFO 1250 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64723cec, org.springframework.security.web.context.SecurityContextPersistenceFilter@787935f1, org.springframework.security.web.header.HeaderWriterFilter@4c6fcd51, org.springframework.security.web.authentication.logout.LogoutFilter@50a81fe1, com.techelevator.security.jwt.JWTFilter@b59f469, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c359047, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6636f2b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b9eb5f4, org.springframework.security.web.session.SessionManagementFilter@3d2bce61, org.springframework.security.web.access.ExceptionTranslationFilter@11b0931f]
+2021-05-03 16:54:58.477  INFO 1250 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 16:54:58.693  INFO 1250 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Starting...
+2021-05-03 16:54:59.166  INFO 1250 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Start completed.
+2021-05-03 16:54:59.257  INFO 1250 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-03 16:54:59.443  WARN 1250 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+2021-05-03 16:54:59.451  INFO 1250 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 16:54:59.453  INFO 1250 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Shutdown initiated...
+2021-05-03 16:54:59.468  INFO 1250 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Shutdown completed.
+2021-05-03 16:54:59.472  INFO 1250 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-03 16:54:59.486  INFO 1250 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-03 16:54:59.495 ERROR 1250 --- [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at com.techelevator.ApplicationServer.main(ApplicationServer.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:43) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	... 21 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1067) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: /etc/letsencrypt/live/atlantiscoding.com/keystore.p12 (Permission denied)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:99) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:71) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:216) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1227) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:592) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1064) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	... 25 common frames omitted
+Caused by: java.io.FileNotFoundException: /etc/letsencrypt/live/atlantiscoding.com/keystore.p12 (Permission denied)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219) ~[na:na]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157) ~[na:na]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112) ~[na:na]
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[na:na]
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184) ~[na:na]
+	at org.apache.catalina.startup.CatalinaBaseConfigurationSource.getResource(CatalinaBaseConfigurationSource.java:121) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:197) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:97) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	... 31 common frames omitted
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.754 s
+[[1;34mINFO[m] Finished at: 2021-05-03T16:54:59Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---< [0;36mcom.techelevator:final-capstone-back-end-server-brewery-finder[0;1m >---[m
+[[1;34mINFO[m] [1mBuilding final-capstone-back-end-server-brewery-finder 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 32 source files to /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/target/classes
+[[1;34mINFO[m] /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/src/main/java/com/techelevator/application/dao/ReviewsSQLDAO.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/src/main/java/com/techelevator/application/dao/ReviewsSQLDAO.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /home/dahlor/coding/breweryfinder/final-capstone/back-end/java/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:run[m [1m(default-cli)[m @ [36mfinal-capstone-back-end-server-brewery-finder[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+  ____                                            
+ |  _ \                                           
+ | |_) |_ __ _____      _____ _ __ _   _          
+ |  _ <| '__/ _ \ \ /\ / / _ | '__| | | |         
+ | |_) | | |  __/\ V  V |  __| |  | |_| |         
+ |____/|_|  \___| \_/\_/ \___|_|   \__, |         
+  ______ _           _              __/ |         
+ |  ____(_)         | |            |___/          
+ | |__   _ _ __   __| | ___ _ __                  
+ |  __| | | '_ \ / _` |/ _ | '__|                 
+ | |    | | | | | (_| |  __| |                    
+ |_|    |_|_| |_|\__,_|\___|_|                    
+   _____      _                _   ___ __   _____ 
+  / ____|    | |              | | |  _/_ | / |_  |
+ | |     ___ | |__   ___  _ __| |_| |  | |/ /_ | |
+ | |    / _ \| '_ \ / _ \| '__| __| |  | | '_ \| |
+ | |___| (_) | | | | (_) | |  | |_| |  | | (_) | |
+  \_____\___/|_| |_|\___/|_|   \__| |_ |_|\____| |
+                                  |___|      |___|
+                                                           
+2021-05-03 17:10:55.365  INFO 2074 --- [  restartedMain] com.techelevator.ApplicationServer       : Starting ApplicationServer on atlantiscoding with PID 2074 (/home/dahlor/coding/breweryfinder/final-capstone/back-end/java/target/classes started by root in /home/dahlor/coding/breweryfinder/final-capstone/back-end/java)
+2021-05-03 17:10:55.368  INFO 2074 --- [  restartedMain] com.techelevator.ApplicationServer       : No active profile set, falling back to default profiles: default
+2021-05-03 17:10:55.429  INFO 2074 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-03 17:10:55.430  INFO 2074 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-03 17:10:56.426  INFO 2074 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-05-03 17:10:56.447  INFO 2074 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 JDBC repository interfaces.
+2021-05-03 17:10:56.850  INFO 2074 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@436c4c04' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-03 17:10:56.864  INFO 2074 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-03 17:10:57.208  INFO 2074 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https)
+2021-05-03 17:10:57.221  INFO 2074 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-03 17:10:57.222  INFO 2074 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2021-05-03 17:10:57.303  INFO 2074 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-03 17:10:57.304  INFO 2074 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1873 ms
+2021-05-03 17:10:57.759  INFO 2074 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**', OPTIONS], []
+2021-05-03 17:10:57.805  INFO 2074 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3cfabb7f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6911aa78, org.springframework.security.web.header.HeaderWriterFilter@ea362ee, org.springframework.security.web.authentication.logout.LogoutFilter@5a0ee8da, com.techelevator.security.jwt.JWTFilter@7a9dced9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@333fa04f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@179996a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5778b168, org.springframework.security.web.session.SessionManagementFilter@491fdc2e, org.springframework.security.web.access.ExceptionTranslationFilter@27676ab1]
+2021-05-03 17:10:58.121  INFO 2074 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 17:10:58.554  INFO 2074 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Starting...
+2021-05-03 17:10:59.020  INFO 2074 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : breweryfinder - Start completed.
+2021-05-03 17:10:59.132  INFO 2074 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-03 17:10:59.894  INFO 2074 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) with context path ''
+2021-05-03 17:10:59.913  INFO 2074 --- [  restartedMain] com.techelevator.ApplicationServer       : Started ApplicationServer in 5.089 seconds (JVM running for 5.589)
+2021-05-03 17:11:18.021  INFO 2074 --- [nio-8443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-03 17:11:18.021  INFO 2074 --- [nio-8443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-03 17:11:18.028  INFO 2074 --- [nio-8443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-05-03 17:11:37.145 - /login path request for: dahlor - if no completed message, request failed
+2021-05-03 17:11:37.426 - Request completed with status code 200: 
